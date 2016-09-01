@@ -1,0 +1,17 @@
+{
+  "name": "rahat",
+  "description": "its a me, rahat",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/rahat",
+  "bin": "index.js",
+  "dependencies": {
+    "asciify-image": "0.0.7",
+    "chalk": "^1.1.3",
+    "get-gravatar": "^2.0.0",
+    "temp": "^0.8.3",
+    "window-size": "^0.2.0"
+  }
+}
