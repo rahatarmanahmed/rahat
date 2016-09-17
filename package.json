@@ -8,7 +8,7 @@
   "repository": "rahatarmanahmed/rahat",
   "bin": "index.js",
   "dependencies": {
-    "asciify-image": "0.0.7",
+    "ascii-images": "^0.1.1",
     "chalk": "^1.1.3",
     "get-gravatar": "^2.0.0",
     "temp": "^0.8.3",

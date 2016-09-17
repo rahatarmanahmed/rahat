@@ -2,15 +2,15 @@
 var getGravatar = require('get-gravatar')
 var temp = require('temp')
 var fs = require('fs')
-var ascii = require('asciify-image')
+var ascii = require('ascii-images')
 var size = require('window-size')
 var chalk = require('chalk')
 
-getGravatar('rahatarmanahmed@gmail.com')
+getGravatar('rahatarmanahmed@gmail.com', {size: size.width/2})
 .then(img => {
-  var path = temp.path({suffix: '.jpg'})
+  var path = temp.path({suffix: '.png'})
   fs.writeFileSync(path, img)
-  ascii(path, {width: size.width/2, fit: 'width'}, function (asciiImg) {
+  ascii(path, function (asciiImg) {
     console.log(asciiImg)
     console.log()
     console.log(chalk.bold('Rahat Ahmed ') + chalk.grey('<rahatarmanahmed@gmail.com>'))
