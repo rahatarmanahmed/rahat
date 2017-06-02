@@ -1,4 +1,6 @@
 # rahat
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/rahat.svg)](https://greenkeeper.io/)
 its a me, rahat
 
 ## Installing
